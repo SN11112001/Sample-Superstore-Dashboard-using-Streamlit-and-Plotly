@@ -24,15 +24,8 @@ streamlit_style = """
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
 
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600');
-			html, body, [class*="css"]  {
-			font-family: 'Poppins';
-			}
-
             div.block-container {padding-top:2rem;}
             div.block-container {padding-bottom:0rem;}
-
-
 
             [data-testid="stMetricValue"] {
             font-size: 20px;
