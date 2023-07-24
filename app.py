@@ -150,7 +150,7 @@ with h2.container():
                 default_index = 1,
                 orientation = "horizontal",
                 styles={
-                "container": {"text-align": "left"},
+                "container": {"font-family": "sans serif", "text-align": "left"},
                 "nav-link": {"font-size": "15px", "text-align": "center"}
                 }
             )
