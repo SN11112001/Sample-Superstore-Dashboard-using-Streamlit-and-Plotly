@@ -20,7 +20,7 @@ original_data["Total_Discount_Given"] = original_data["Quantity"] * original_dat
 # SETTING BASIC PAGE CONFIGURATION --------------------------------------------------
 
 st.set_page_config(
-    page_title = "Superstore Sales Dashboard",
+    page_title = "Sales Dashboard - by Saurabh Narwane",
     page_icon="https://i.imgur.com/DXz9exy.png",
     layout="wide",
     initial_sidebar_state='collapsed'
