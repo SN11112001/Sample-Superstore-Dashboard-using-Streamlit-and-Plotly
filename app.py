@@ -17,6 +17,34 @@ original_data["Total_Discount_Given"] = original_data["Quantity"] * original_dat
 
 
 
+# CUSTOM CSS FOR PAGE --------------------------------------------------
+
+streamlit_style = """
+			<style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600');
+			html, body, [class*="css"]  {
+			font-family: 'Poppins';
+			}
+
+            div.block-container {padding-top:2rem;}
+            div.block-container {padding-bottom:0rem;}
+
+
+
+            [data-testid="stMetricValue"] {
+            font-size: 20px;
+            text-align: bottom;
+            font-weight: bold;
+
+			</style>
+			"""
+st.markdown(streamlit_style, unsafe_allow_html=True)
+
+
+
 # SETTING BASIC PAGE CONFIGURATION --------------------------------------------------
 
 st.set_page_config(
@@ -64,32 +92,6 @@ def add_underscore(df):
 add_underscore(original_data)
 
 
-
-# CUSTOM CSS FOR PAGE --------------------------------------------------
-
-streamlit_style = """
-			<style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600');
-			html, body, [class*="css"]  {
-			font-family: 'Poppins';
-			}
-
-            div.block-container {padding-top:2rem;}
-            div.block-container {padding-bottom:0rem;}
-
-
-
-            [data-testid="stMetricValue"] {
-            font-size: 20px;
-            text-align: bottom;
-            font-weight: bold;
-
-			</style>
-			"""
-st.markdown(streamlit_style, unsafe_allow_html=True)
 
 
 
