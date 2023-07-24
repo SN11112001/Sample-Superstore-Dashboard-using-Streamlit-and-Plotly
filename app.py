@@ -17,6 +17,17 @@ original_data["Total_Discount_Given"] = original_data["Quantity"] * original_dat
 
 
 
+# SETTING BASIC PAGE CONFIGURATION --------------------------------------------------
+
+st.set_page_config(
+    page_title = "Superstore Sales Dashboard",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state='collapsed'
+    )
+
+
+
 # CUSTOM CSS FOR PAGE --------------------------------------------------
 
 streamlit_style = """
@@ -36,16 +47,6 @@ streamlit_style = """
 			"""
 st.markdown(streamlit_style, unsafe_allow_html=True)
 
-
-
-# SETTING BASIC PAGE CONFIGURATION --------------------------------------------------
-
-st.set_page_config(
-    page_title = "Superstore Sales Dashboard",
-    page_icon="📊",
-    layout="wide",
-    initial_sidebar_state='collapsed'
-    )
 
 
 # CUSTOM FUNCTIONS AND VARIABLES --------------------------------------------------
