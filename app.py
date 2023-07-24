@@ -346,7 +346,7 @@ with sec_1_1.container():
                 default_index = 1,
                 orientation = "horizontal",
                 styles={
-                "container": {"font-family": "Poppins", "text-align": "left"},
+                "container": {"font-family": "sans-serif", "text-align": "left"},
                 "nav-link": {"font-size": "15px", "text-align": "center"}
                 }
             )
@@ -483,7 +483,7 @@ with sec_2_1.container():
                     default_index = 1,
                     orientation = "vertical",
                     styles={
-                    "container": {"font-family": "Poppins", "text-align": "left"},
+                    "container": {"font-family": "sans-serif", "text-align": "left"},
                     "nav-link": {"font-size": "15px", "text-align": "center"}
                     }
                 )
