@@ -38,6 +38,11 @@ streamlit_style = """
             div.block-container {padding-top:2rem;}
             div.block-container {padding-bottom:0rem;}
 
+     	    @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@700');
+			html, body, [class*="css"]  {
+			font-family: 'Poppins', sans-serif;
+			}
+
             [data-testid="stMetricValue"] {
             font-size: 20px;
             text-align: bottom;
