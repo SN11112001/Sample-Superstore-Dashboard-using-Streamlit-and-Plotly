@@ -20,7 +20,7 @@ original_data["Total_Discount_Given"] = original_data["Quantity"] * original_dat
 # SETTING BASIC PAGE CONFIGURATION --------------------------------------------------
 
 st.set_page_config(
-    page_title = "Sales Dashboard - by Saurabh Narwane",
+    page_title = "Sales Dashboard - by SN11112001",
     page_icon="https://i.imgur.com/DXz9exy.png",
     layout="wide",
     initial_sidebar_state='collapsed'
@@ -143,7 +143,7 @@ h1, h2 = st.columns(spec = 2)
 
 with h1.container():
 
-    st.markdown("<h2>🏬 Superstore Sales Dashboard</h2>", unsafe_allow_html = True)
+    st.markdown("<h2>🛒 Superstore Sales Dashboard</h2>", unsafe_allow_html = True)
 
 with h2.container():
 
